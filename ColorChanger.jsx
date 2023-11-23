@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const ColorChanger = () => {
-  const [] = useState(); // What goes in all the brackets here?
+  const [] = useState();
 
   const changeColor = () => {
     let buttonClick = prompt("Pick a color");
@@ -11,7 +11,7 @@ const ColorChanger = () => {
 
   return (
  
-    // JSX goes here, dont forget onClick!
+    // JSX goes here
 
     <>
       
